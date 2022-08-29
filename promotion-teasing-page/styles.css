@@ -1,0 +1,241 @@
+body {
+    margin: 0px;
+    padding: 1rem;
+    background-color: #F3F3F5;
+    /* max-width: 1788px; */
+}
+
+.primary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #E4E5E6;
+    padding: 0px 60px 0px 36px;
+    border-radius: 15px 0px 0px 15px;
+    font-family: 'Roboto', sans-serif;
+    min-width: 22em;
+    max-width: 40rem;
+}
+
+h1 {
+    display: flex;
+}
+
+#primary-p1 {
+    text-align: left;
+}
+
+#primary-p2 {
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+            line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+
+.btn {
+    border: 0px;
+    background-color: #27A66A;
+    color: #F2FAF6;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-right: 10em;
+}
+
+.btn-learn {
+    display: flex;
+    padding-top: 48px;
+}
+
+.primary a {
+    display: flex;
+    align-items: center;
+}
+
+.safe-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D8DBE6;
+    border-radius: 0px 15px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    min-width: 476px;
+}
+
+.primary-safe {
+    display: flex;
+    min-height: 540px;
+    max-width: 76em;
+    text-align: center;
+}
+
+.below-safe-area {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    max-width: 76rem;
+}
+
+.below-safe-area-left {
+    /* background-color: #27A66A; */
+    min-height: 60px;
+    min-width: 30em;
+    max-width: 40rem;
+}
+
+.below-safe-area-right {
+    background: #E5E8F3;
+    min-height: 60px;
+    /* min-width: 20em; */
+    min-width: 476px;
+}
+
+.boxes456 {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    max-width: 76rem;
+}
+
+.boxes456 h4 {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.boxes456 p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; 
+            line-clamp: 4; 
+    -webkit-box-orient: vertical;
+}
+
+.box4 {
+    min-width: 240px;
+    max-width: 300px;
+    padding-left: 36px;
+}
+
+.box5 {
+    min-width: 240px;
+    max-width: 300px;
+}
+
+.box6 {
+    min-width: 240px;
+    max-width: 300px;
+    padding-right: 36px;
+}
+
+@media (min-width: 1280px) {
+
+    .primary {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #E4E5E6;
+        padding: 0px 60px 0px 36px;
+        border-radius: 15px 0px 0px 15px;
+        font-family: 'Roboto', sans-serif;
+        min-width: 540px;
+        max-width: 800px;
+    }
+
+    .safe-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #D8DBE6;
+        border-radius: 0px 15px 0px 0px;
+        font-family: 'Roboto', sans-serif;
+        min-width: 616px;
+    }
+
+    .below-safe-area {
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 30px;
+        max-width: 1252px;
+    }
+
+    .below-safe-area-right {
+        background: #E5E8F3;
+        min-height: 60px;
+        min-width: 616px;
+    }
+
+    .boxes456 {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Roboto', sans-serif;
+        max-width: 1252px;
+    }
+    
+    .box4 {
+        min-width: 300px;
+        max-width: 360px;
+        padding-left: 36px;
+    }
+    
+    .box5 {
+        min-width: 300px;
+        max-width: 360px;
+    }
+    
+    .box6 {
+        min-width: 300px;
+        max-width: 360px;
+        padding-right: 36px;
+    }
+    
+    
+}
+
+@media (min-width: 1560px) {
+
+    .primary {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #E4E5E6;
+        padding: 0px 120px 0px 240px;
+        border-radius: 15px 0px 0px 15px;
+        font-family: 'Roboto', sans-serif;
+        min-width: 540px;
+        max-width: 800px;
+    }
+
+    .safe-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #D8DBE6;
+        border-radius: 0px 15px 0px 0px;
+        font-family: 'Roboto', sans-serif;
+        min-width: 820px;
+    }
+
+    .below-safe-area {
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 30px;
+        min-width: 1720px;
+    }
+
+    .below-safe-area-right {
+        background: #E5E8F3;
+        min-height: 60px;
+        min-width: 820px;
+    }
+
+    .boxes456 {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Roboto', sans-serif;
+        min-width: 1720px;
+    }
+
+}
