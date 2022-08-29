@@ -1,3 +1,5 @@
+Color for paragraph font: #717578
+
 body {
     margin: 0px;
     padding: 1rem;
@@ -111,6 +113,7 @@ h1 {
     -webkit-line-clamp: 4; 
             line-clamp: 4; 
     -webkit-box-orient: vertical;
+    color: #717578;
 }
 
 .box4 {
